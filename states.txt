@@ -48,3 +48,8 @@ Michigan
 Oregon
 Pennsylvania
 Rhode Island
+
+sort states.txt
+cat states.txt | sort > states-sorted.txt
+sed 's/a/z/' states.txt
+history > history.txt
